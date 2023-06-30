@@ -1,0 +1,5 @@
+userName = input("Write your full Name: ")
+print(userName.lower().title().strip())
+print(len(userName), '- кількість символів разом з пробілами.')
+userName = userName.replace(' ', '')
+print(len(userName), '- кількість символів без пробілів.')
